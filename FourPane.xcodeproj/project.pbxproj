@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0064EDD290A78040053D43A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0064EDC290A78040053D43A /* MapKit.framework */; };
 		E02F31D6290A6FFE00391421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02F31D5290A6FFE00391421 /* AppDelegate.swift */; };
 		E02F31D8290A6FFE00391421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02F31D7290A6FFE00391421 /* SceneDelegate.swift */; };
 		E02F31DA290A6FFE00391421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02F31D9290A6FFE00391421 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0064EDC290A78040053D43A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E02F31D2290A6FFE00391421 /* FourPane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourPane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02F31D5290A6FFE00391421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E02F31D7290A6FFE00391421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0064EDD290A78040053D43A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0064EDB290A78040053D43A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0064EDC290A78040053D43A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E02F31C9290A6FFE00391421 = {
 			isa = PBXGroup;
 			children = (
 				E02F31D4290A6FFE00391421 /* FourPane */,
 				E02F31D3290A6FFE00391421 /* Products */,
+				E0064EDB290A78040053D43A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
